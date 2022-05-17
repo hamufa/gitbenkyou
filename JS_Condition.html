@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
 <body>
+<p>Pesan berdasarkan kondisi waktu</p>
 
+<p id="demo"></p>
+<script>	
+let greeting = '';
 
-<p id="demo">Pesan Waktu</p>
-<script>
+let zz = 30;
 
-//dimana kondisi x lebih besar daripada kondisi y
+if (zz > 20 ){
 
-if (new Date().getHours() > 22 )
-{
 greeting = "Saya bisa!";}
-else (new Date().getHours() > 23 )
-{
-greeting = "Horee Saya Bisa!";}
+
+else{
+
+greeting = "Horee Saya Bisa!";
+
+}
 
 document.getElementById("demo").innerHTML = greeting;
 
 </script>
     
 </body>
-</html
+</html>
